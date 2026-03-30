@@ -3,7 +3,6 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./auth/PrivateRoute";
-import DashboardLayout from "./pages/DashboardLayout";
 import Expenses from "./pages/Expenses";
 
 function App() {
