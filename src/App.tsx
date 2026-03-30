@@ -29,17 +29,8 @@ function App() {
             </PrivateRoute>
           }
         />
-        <Route
-          path="/expenses"
-          element={
-            <PrivateRoute>
-              <DashboardLayout>
-                <div>Expenses Page Coming Soon...</div>
-              </DashboardLayout>
-            </PrivateRoute>
-          }
-        />
 
+        <Route path="/" element={<Login />} />
         <Route path="*" element={<Login />} />
       </Routes>
     </BrowserRouter>
